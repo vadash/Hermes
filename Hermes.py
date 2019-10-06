@@ -341,7 +341,7 @@ def find_items(stashes):
 
                     if item_value is not 0 and (item_value - price_normalized) > 9.0 and price_normalized is not 0:
                         # unwanted items
-                        if 'Atziri' in name or 'Sadima' in name or 'Drillneck' in name or "Precursor's Emblem" in name:
+                        if 'Atziri' in name or 'Sadima' in name or 'Drillneck' in name or 'Circle of' in name or "Precursor's Emblem" in name:
                             continue
 
                         price = price.replace("~b/o ", "")

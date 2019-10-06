@@ -339,7 +339,7 @@ def find_items(stashes):
 
                     item_value, url = get_item_value(name, frameType, link, explicitMods)
 
-                    if item_value is not 0 and (item_value - price_normalized) > 3.0 and price_normalized is not 0:
+                    if item_value is not 0 and (item_value - price_normalized) > 9.0 and price_normalized is not 0:
                         # unwanted items
                         if 'Atziri' in name or 'Sadima' in name or 'Drillneck' in name or "Precursor's Emblem" in name:
                             continue

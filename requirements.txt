@@ -1,0 +1,4 @@
+requests==2.22.0
+Pillow==6.2.0
+pygetwindow==0.0.7
+pynput==1.4.4
